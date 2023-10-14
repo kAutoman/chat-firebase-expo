@@ -8,7 +8,9 @@ export default function ChatTitle({ navigation }) {
             justifyContent: 'flex-start',
             alignItems: 'center',
             flexDirection: 'row',
-            width: '100%'
+            width: '100%',
+            paddingTop: 10,
+            paddingBottom: 10
         }}>
             <TouchableOpacity
                 style={{

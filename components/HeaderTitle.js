@@ -7,7 +7,9 @@ export default function HomeTitle() {
             justifyContent: 'space-between',
             alignItems: 'center',
             flexDirection: 'row',
-            width: '100%'
+            width: '100%',
+            paddingTop: 10,
+            paddingBottom: 10
         }}>
             <View style={{
                 width: 38,
